@@ -1,0 +1,123 @@
+.lrlms-class-room-back img {
+    width: 17px;
+}
+
+.lrlms-class-room-sidebar-toggler img {
+    width: 22px;
+}
+ 
+.lrms-class-room-nav-title{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Montserrat";
+    max-width: 80%
+}
+
+.lrms-class-room-sidebar-title{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Montserrat";
+    max-width: 80%;
+    padding: 5px 8px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    min-width: 70%;
+}
+
+.lrlms-class-room-sidebar-toggler .navbar-toggler {
+    padding: 5px;
+    border: 0;
+}
+
+#lrlms-class-room-sidebar .navbar-toggler {
+    padding: 5px;
+    border: 0;
+}
+
+#lrlms-class-room-sidebar .navbar-toggler img {
+    width: 22px;
+}
+
+#lrlms-class-room-sidebar{
+    width: 310px;
+    position: fixed;
+    padding: 10px;
+    height: 100%;
+    background-color: #EAEAEA;
+    right: 0;
+    z-index: 9999;
+    box-shadow: -1px 0px 4px 0px rgba(0,0,0,0.2);
+}
+
+.lrlms-lessons-toggler{
+    display: block;
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.lrlms-sidebar-top-nav{
+    padding: 0;
+}
+
+.lrlms-class-room-sidebar-profile{
+    width: 32px;
+}
+
+#lrlms-nav-wrap {
+    max-height: 206px;
+    overflow-y: scroll;
+}
+
+.lrlms-sidebar-topinfo{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Montserrat";
+}
+
+.lrlms-lesson, .lrlms-lesson:first-child, .lrlms-lesson:last-child{
+    border-radius: 0;
+}
+
+.lrlms-lessons-toggler img{
+    width: 15px;
+}
+
+.lrlms-sidebar-nav-lessons{
+    margin-bottom: 10px;
+}
+
+.lrlms-lesson img{
+    width: 10px;
+}
+.lrlms-lesson{
+    padding: 8px;
+    font-size: 16px;
+}
+
+.lrlms-lesson-text{
+    width: 100%;
+    padding: 0 5px;
+    text-align: left;
+    font-weight: 300;
+}
+
+#lrlms-chat-wrap{
+    background-color: #FAFAFA;
+}
+
+.lrlms-chat-toggler{
+    display: block;
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.lrlms-chat-toggler img{
+    width: 15px;
+}
+
+#lrlms-chat-wrap .tab-content{
+    background-color: #ffffff;
+    padding: 8px;
+}

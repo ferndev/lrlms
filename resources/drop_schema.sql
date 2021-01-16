@@ -1,0 +1,2 @@
+DROP TABLE `wp_classroom`, `wp_classroom_users`, `wp_course`, `wp_courseinstance`, `wp_course_assessment`, `wp_course_assignments`,
+`wp_course_lesson`, `wp_course_question`, `wp_lesson`, `wp_lesson_media`, `wp_qoption`, `wp_question`, `course_users`;

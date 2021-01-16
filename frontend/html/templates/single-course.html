@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- Not done yet -->
+
+    <title>LRLMS Single Course</title>
+</head>
+
+<body>
+    <div class="lrlms-single-course-overview">
+        <div id="lrlms-sc-primary-<?php the_ID();?>" class="lrlms-sc-content-wrapper container">
+            <header class="entry-header">
+                <h1 class="entry-title"> Course Title</h1>
+                <!--entry-title-->
+            </header><!-- .entry-header -->
+            <div class="lrlms-sc-meta-wrapper row">
+                <div class="col-sm">
+                    <div class="lrlms-sc-meta-heading">Teacher:</div>
+                    <span>TeacherName</span>
+                </div>
+                <div class="col-sm">
+                    <div class="lrlms-sc-meta-heading">Class Rooms:</div>
+                    <span>4</span>
+                </div>
+                <div class="col-sm">
+                    <div class="lrlms-sc-meta-heading">Review</div>
+                    <div class="lrlms-sc-review">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="lrlms-sc-meta-heading">Starting Date:</div>
+                    <span>18-09-2020</span>
+                </div>
+            </div><!-- lrlms-sc-meta-wrapper-->
+            <div class="thumbnail lrlms-sc-thumbnail">
+                <img class="img-responsive" src="/img/course-example.jpg"
+                    alt="">
+                <div class="lrlms-sc-thumbnail-mark lrlms-best-seller">
+                    <span>Best<br>Seller</span>
+                </div>
+            </div>
+            <div class="lrlms-sc-source-nav">
+                <ul class="nav nav-tabs lrlms-sc-nav" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                            aria-controls="home" aria-selected="true">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="lrlms-curriculum-tab" data-toggle="tab" href="#lrlms-curriculum" role="tab"
+                            aria-controls="lrlms-curriculum" aria-selected="false">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="lrlms-instructors-tab" data-toggle="tab" href="#lrlms-instructors" role="tab"
+                            aria-controls="lrlms-instructors" aria-selected="false">Intructor(s)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="lrlms-faq-tab" data-toggle="tab" href="#lrlms-faq" role="tab"
+                            aria-controls="lrlms-faq" aria-selected="false">FAQ</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="lrlmsTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h5>THE TITLE</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus modi quaerat earum maiores
+                            totam quod sed unde laudantium quisquam. Exercitationem libero veritatis consectetur
+                            similique impedit laboriosam in eos minima doloremque!</p>
+                        <p>Exercitationem iure veritatis, ab impedit libero corporis eaque reprehenderit earum porro
+                            reiciendis nulla asperiores incidunt, molestias minima iusto ex nobis qui ad aut
+                            laudantium! Molestias atque consequatur harum eos itaque.</p>
+                        <p>Eum consequatur expedita eveniet pariatur? Animi, facilis sit. Tenetur, sint. Ad incidunt
+                            maxime culpa quae similique porro nemo sit fugiat neque obcaecati tempore rerum, earum rem
+                            delectus tenetur veniam quia?</p>
+                    </div>
+                    <!-- CURRICULUM CONTENT -->
+                    <div class="tab-pane fade" id="lrlms-curriculum" role="tabpanel" aria-labelledby="profile-tab">
+                        <ul class="list-group">
+                            <li class="list-group-item">Module 1</li>
+                            <li class="list-group-item">Module 2</li>
+                            <li class="list-group-item">Module 3</li>
+                            <li class="list-group-item">Module 4</li>
+                        </ul>
+                    </div>
+                    <!-- INSTRUCTORS CONTENT -->
+                    <div class="tab-pane fade" id="lrlms-instructors" role="tabpanel" aria-labelledby="contact-tab">
+                        <h5>Instructor(s) Info</h5>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illo, rem saepe
+                                laboriosam temporibus excepturi ipsa dolores ullam sapiente blanditiis! Officia
+                                quisquam dolore accusamus. Deserunt reprehenderit quas nam officia perferendis?</p>
+                            <p>Porro nulla quidem repellat sunt minima fugit veritatis natus error consequatur
+                                repudiandae quos, numquam facere delectus. Magnam nostrum est, molestias assumenda
+                                quisquam optio id inventore nisi odio commodi corporis eum?</p>
+                            <p>Consectetur et minus eveniet error cum modi rem nisi, harum quos saepe dicta cumque qui
+                                vel rerum? Inventore voluptatum atque nobis, laborum qui distinctio soluta voluptas,
+                                tempore molestiae accusamus esse?</p>
+                        </div>
+                    </div>
+                    <!-- FAQ CONTENT -->
+                    <div class="tab-pane fade" id="lrlms-faq" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="accordion" id="accordionExample">
+                            <div class="">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            QUESTION #1?
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Answer1
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            QUESTION #2?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Answer2
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="lrlms-sc-sidebar-<?php the_ID();?>" class="lrlms-sc-sidebar">
+            <div class="container">
+                <div class="card text-center lrlms-enroll-widget">
+                    <div class="card-header">
+                        <div>
+                            <h3><span class="lrlms-currency">$</span>70</h3>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="lrmls-sc-enroll-form-wrapper m-bot-24">
+                            <form action="">
+                                <a href="#" class="btn btn-secondary btn-block">Enroll Now</a>
+                            </form>
+                        </div>
+                        <div class="lrlms-sc-cat m-bot-24">
+                            <div>CATEGORIES:</div>
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action">
+                                    Cras justo odio
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                            </div>
+                        </div>
+                        <div class="lrlms-sc-tags">
+                            <div>TAGS:</div>
+                            <span class="badge badge-primary">PHP</span>
+                            <span class="badge badge-primary">CSS</span>
+                            <span class="badge badge-primary">HTML</span>
+                            <span class="badge badge-primary">JS</span>
+                        </div>
+
+                    </div>
+                    <div class="card-footer text-muted">
+                        <div>SHARE</div>
+                        <div class="lrlms-social-share">
+                            <a href="#/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#/"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#/"><i class="fab fa-twitter"></i></a>
+                            <a href="#/"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card lrlms-courseinfo-widget">
+                    <div class="card-header text-center">
+                        <div>
+                            <h3>Course Info</h3>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                ClassRooms
+                                <span class="badge badge-primary badge-pill">4</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Total Students
+                                <span class="badge badge-primary badge-pill">67</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Modules
+                                <span class="badge badge-primary badge-pill">8</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Lessons
+                                <span class="badge badge-primary badge-pill">48</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Level
+                                <span class="badge badge-primary badge-pill">Junior</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Languages
+                                <span class="badge badge-primary badge-pill">ES, EN</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript imports, to be developed -->
+
+</body>
+
+</html>
